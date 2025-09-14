@@ -1,0 +1,1041 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "ESP32-WROOM-32D"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -9.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32D"
+			(at 0.635 -1.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "!Personal:ESP32-WROOM-32D"
+			(at 0.635 -27.178 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.635 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.635 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-WROOM-32D_0_1"
+			(circle
+				(center -8.255 20.955)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8.255 -20.955)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.0825 19.0475) (xy -5.0825 20.3175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 20.32) (xy -5.08 22.86)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.535 19.04)
+				(mid -2.9092 18.1442)
+				(end -3.805 17.77)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.8125 17.7775)
+				(mid -4.7098 18.1502)
+				(end -5.0825 19.0475)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.5425 19.0475) (xy -2.5425 20.3175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 21.59) (xy -2.54 20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 22.86)
+				(mid -0.3727 22.4873)
+				(end 0 21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5475 21.5975)
+				(mid -2.1733 22.4933)
+				(end -1.2775 22.8675)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0025 19.0475) (xy -0.0025 20.3175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 21.59) (xy 0 20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.545 19.04)
+				(mid 2.1708 18.1442)
+				(end 1.275 17.77)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.2675 17.7775)
+				(mid 0.3702 18.1502)
+				(end -0.0025 19.0475)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5375 19.0475) (xy 2.5375 20.3175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 21.59) (xy 2.54 20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 -21.59)
+				(end -2.54 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 22.86)
+				(mid 4.7073 22.4873)
+				(end 5.08 21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5325 21.5975)
+				(mid 2.9067 22.4933)
+				(end 3.8025 22.8675)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 21.59) (xy 5.08 20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 20.32) (xy 5.08 17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.255 20.955)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.255 -20.955)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ESP32-WROOM-32D_1_1"
+			(rectangle
+				(start -10.795 24.13)
+				(end 10.795 -24.13)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(text_box "| GPIO | Pin Name    | Function 0 | Function 1 | Function 2 | Function 3 | Function 4 | Function 5  | Reset | Notes |\n|------|-------------|------------|------------|------------|------------|------------|-------------|-------|-------|\n|   0  | GPIO0       | GPIO0      | CLK_OUT1   | GPIO0      | -          | -          | EMAC_TX_CLK |   3   | R, S  |\n|   1  | U0TXD       | U0TXD      | CLK_OUT3   | GPIO1      | -          | -          | EMAC_RXD2   |   3   | -     |\n|   2  | GPIO2       | GPIO2      | HSPIWP     | GPIO2      | HS2_DATA0  | SD_DATA0   | -           |   2   | R, S  |\n|   3  | U0RXD       | U0RXD      | CLK_OUT2   | GPIO3      | -          | -          | -           |   3   | -     |\n|   4  | GPIO4       | GPIO4      | HSPIHD     | GPIO4      | HS2_DATA1  | SD_DATA1   | EMAC_TX_ER  |   2   | R     |\n|   5  | GPIO5       | GPIO5      | VSPICS0    | GPIO5      | HS1_DATA6  | -          | EMAC_RX_CLK |   3   | S     |\n|   6  | SD_CLK      | SD_CLK     | SPICLK     | GPIO6      | HS1_CLK    | U1CTS      | -           |   3   | -     |\n|   7  | SD_DATA_0   | SD_DATA0   | SPIQ       | GPIO7      | HS1_DATA0  | U2RTS      | -           |   3   | -     |\n|   8  | SD_DATA_1   | SD_DATA1   | SPID       | GPIO8      | HS1_DATA1  | U2CTS      | -           |   3   | -     |\n|   9  | SD_DATA_2   | SD_DATA2   | SPIHD      | GPIO9      | HS1_DATA2  | U1RXD      | -           |   3   | -     |\n|  10  | SD_DATA_3   | SD_DATA3   | SPIWP      | GPIO10     | HS1_DATA3  | U1TXD      | -           |   3   | -     |\n|  11  | SD_CMD      | SD_CMD     | SPICS0     | GPIO11     | HS1_CMD    | U1RTS      | -           |   3   | -     |\n|  12  | MTDI        | MTDI       | HSPIQ      | GPIO12     | HS2_DATA2  | SD_DATA2   | EMAC_TXD3   |   2   | R, S  |\n|  13  | MTCK        | MTCK       | HSPID      | GPIO13     | HS2_DATA3  | SD_DATA3   | EMAC_RX_ER  |   2   | R     |\n|  14  | MTMS        | MTMS       | HSPICLK    | GPIO14     | HS2_CLK    | SD_CLK     | EMAC_TXD2   |   3   | R     |\n|  15  | MTDO        | MTDO       | HSPICS0    | GPIO15     | HS2_CMD    | SD_CMD     | EMAC_RXD3   |   3   | R, S  |\n|  16  | GPIO16      | GPIO16     | -          | GPIO16     | HS1_DATA4  | U2RXD      | EMAC_CLK_OUT|   1   | -     |\n|  17  | GPIO17      | GPIO17     | -          | GPIO17     | HS1_DATA5  | U2TXD      | EMAC_CLK_180|   1   | -     |\n|  18  | GPIO18      | GPIO18     | VSPICLK    | GPIO18     | HS1_DATA7  | -          | -           |   1   | -     |\n|  19  | GPIO19      | GPIO19     | VSPIQ      | GPIO19     | U0CTS      | -          | EMAC_TXD0   |   1   | -     |\n|  21  | GPIO21      | GPIO21     | VSPIHD     | GPIO21     | -          | -          | EMAC_TX_EN  |   1   | -     |\n|  22  | GPIO22      | GPIO22     | VSPIWP     | GPIO22     | U0RTS      | -          | EMAC_TXD1   |   1   | -     |\n|  23  | GPIO23      | GPIO23     | VSPID      | GPIO23     | HS1_STROBE | -          | -           |   1   | -     |\n|  25  | GPIO25      | GPIO25     | -          | GPIO25     | -          | -          | EMAC_RXD0   |   0   | R     |\n|  26  | GPIO26      | GPIO26     | -          | GPIO26     | -          | -          | EMAC_RXD1   |   0   | R     |\n|  27  | GPIO27      | GPIO27     | -          | GPIO27     | -          | -          | EMAC_RX_DV  |   0   | R     |\n|  32  | 32K_XP      | GPIO32     | -          | GPIO32     | -          | -          | -           |   0   | R     |\n|  33  | 32K_XN      | GPIO33     | -          | GPIO33     | -          | -          | -           |   0   | R     |\n|  34  | VDET_1      | GPIO34     | -          | GPIO34     | -          | -          | -           |   0   | R, I  |\n|  35  | VDET_2      | GPIO35     | -          | GPIO35     | -          | -          | -           |   0   | R, I  |\n|  36  | SENSOR_VP   | GPIO36     | -          | GPIO36     | -          | -          | -           |   0   | R, I  |\n|  37  | SENSOR_CAPP | GPIO37     | -          | GPIO37     | -          | -          | -           |   0   | R, I  |\n|  38  | SENSOR_CAPN | GPIO38     | -          | GPIO38     | -          | -          | -           |   0   | R, I  |\n|  39  | SENSOR_VN   | GPIO39     | -          | GPIO39     | -          | -          | -           |   0   | R, I  |\n\n\n\"Reset\" column shows each pin's default configurations after reset:\n• 0 - IE=0 (input disabled).\n• 1 - IE=1 (input enabled).\n• 2 - IE=1, WPD=1 (input enabled, pull-down resistor).\n• 3 - IE=1, WPU=1 (input enabled, pull-up resistor).\n\nNotes\n• S - Pin is a strapping pin.\n• R - Pin has RTC/analog functions via RTC_MUX.\n• I - Pin can only be configured as input GPIO. These input-only pins do not feature an output driver\n      or internal pull-up/pull-down circuitry.\n\nBelow are some definitions:\n • SD_* is for signals of the SDIO slave.\n • HS1_* is for Port 1 signals of the SDIO host.\n • HS2_* is for Port 2 signals of the SDIO host.\n • MT* is for signals of the JTAG.\n • U0* is for signals of the UART0 module.\n • U1* is for signals of the UART1 module.\n • U2* is for signals of the UART2 module.\n • SPI* is for signals of the SPI01 module.\n • HSPI* is for signals of the SPI2 module.\n • VSPI* is for signals of the SPI3 module."
+				(at -75.184 26.67 0)
+				(size 52.324 -53.34)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Source Code Pro")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(text_box "The ESP32 has several strapping pins, with the most important being GPIO0, GPIO2, GPIO5, GPIO12, and GPIO15.\nThese pins configure the ESP32's startup mode by being set to a specific high or low state during boot.\nFor example, pulling GPIO0 low typically enters download mode for programming,\nwhile a high state allows the chip to boot normally from flash memory. \n\n • GPIO0                     Pulling this pin low enters download mode. \n • GPIO2                     Must be floating or low during boot for normal operation. \n • GPIO5                     Must be held high during boot. \n • GPIO12 (MTDI)     Determines the voltage level for the internal flash memory and must be low for normal boot. \n • GPIO15 (MTDO)   Must be held high during boot. \n\nStrapping pins are crucial because they dictate the ESP32's initial behavior at power-up. By holding these pins in a specific state, \nyou can instruct the ESP32 to either run a program already stored in its flash memory or enter a mode where you can upload a new program.\nThis makes them essential for flashing new firmware onto the ESP32. "
+				(at -18.415 -31.75 0)
+				(size 36.83 -13.335)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Avenir Next Condensed")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(text_box "SPI:\n • SPI0: used as a buffer for accessing external memory\n • SPI1: (SPI) can be used as a master. pins are multiplexed with GPIO6 ~ GPIO11 via the IO MUX\n • SPI2: (HSPI) can be configured as either a master or a slave. pins are multiplexed with GPIO2, GPIO4, GPIO12 ~ GPIO15 via the IO MUX\n • SPI3: (VSPI) can be configured as either a master or a slave. pins are multiplexed with GPIO5, GPIO18 ~ GPIO19, GPIO21 ~ GPIO23 via the IO MUX\n\nEvery SPI master can be connected to three slaves at most by default.\nWhen not using DMA, the maximum length of data received/sent in one burst is 64 bytes. The data length is in multiples of one byte.\nNOTE: Software can enable three-line half-duplex communication by configuring SPI_SIO bit in SPI_USER_REG register."
+				(at 22.86 26.67 0)
+				(size 39.878 -9.398)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Avenir Next Condensed")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(text_box "I2C (Inter-Integrated Circuit):\n • Supports both master mode and slave mode\n • Supports multi-master and multi-slave communication\n • Supports standard mode (100 kbit/s)\n • Supports fast mode (400 kbit/s)\n • Supports 7-bit addressing and 10-bit addressing\n • Supports continuous data transmission with disabled Serial Clock Line (SCL)\n • Supports programmable digital noise filter\n\nI2C is a two-wire bus, consisting of an SDA and an SCL line. These lines are configured to open the drain output.\nThe lines are shared by two or more devices: usually one or more masters and one or more slaves.\nNOTE: The I2C controller only supports NON-FIFO mode."
+				(at 22.86 16.002 0)
+				(size 39.878 -11.684)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Avenir Next Condensed")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(text_box "UART (Universal Asynchronous Receiver/Transmitter):\n\nUART is a character-oriented data link that can be used to achieve communication between two devices.\nThe asynchronous mode of transmission means that it is not necessary to add clocking information to the data being sent.\nThe three UART controllers available on a chip are compatible with UART-enabled devices from various manufacturers.\nThe UART can also carry out an IrDA (Infrared Data Exchange), or function as an RS-485 modem.\n\n• Programmable baud rate\n• 1024 × 8-bit RAM shared by three UART transmit-FIFOs and receive-FIFOs\n• Supports input baud rate self-check\n• Supports 5/6/7/8 bits of data length\n• Supports 1/1.5/2 STOP bits\n• Supports parity bit\n• Supports RS485 Protocol\n• Supports IrDA Protocol\n• Supports DMA to communicate data in high speed\n• Supports UART wake-up\n• Supports both software and hardware flow control"
+				(at 22.86 3.048 0)
+				(size 39.878 -17.018)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Avenir Next Condensed")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(text_box "I2C (Inter-Integrated Circuit):\n • Supports both master mode and slave mode\n • Supports multi-master and multi-slave communication\n • Supports standard mode (100 kbit/s)\n • Supports fast mode (400 kbit/s)\n • Supports 7-bit addressing and 10-bit addressing\n • Supports continuous data transmission with disabled Serial Clock Line (SCL)\n • Supports programmable digital noise filter\n\nI2C is a two-wire bus, consisting of an SDA and an SCL line. These lines are configured to open the drain output.\nThe lines are shared by two or more devices: usually one or more masters and one or more slaves.\nNOTE: The I2C controller only supports NON-FIFO mode."
+				(at 22.86 -15.24 0)
+				(size 39.878 -11.684)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 72 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(face "Avenir Next Condensed")
+						(size 0.508 0.508)
+						(color 0 0 72 1)
+					)
+					(justify left top)
+				)
+			)
+			(pin bidirectional line
+				(at -13.335 17.78 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "Reset" input line)
+			)
+			(pin input line
+				(at -13.335 15.24 0)
+				(length 2.54)
+				(name "GPIO36"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.335 12.7 0)
+				(length 2.54)
+				(name "GPIO39"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.335 10.16 0)
+				(length 2.54)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.335 7.62 0)
+				(length 2.54)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.335 5.08 0)
+				(length 2.54)
+				(name "GPIO32"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "32K_XP" input line)
+			)
+			(pin bidirectional line
+				(at -13.335 2.54 0)
+				(length 2.54)
+				(name "GPIO33"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "32K_XN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.335 0 0)
+				(length 2.54)
+				(name "GPIO25"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "DAC1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.335 -2.54 0)
+				(length 2.54)
+				(name "GPIO26"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "DAC2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.335 -5.08 0)
+				(length 2.54)
+				(name "GPIO27"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.335 -7.62 0)
+				(length 2.54)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "HSPI CLK" bidirectional line)
+				(alternate "JTAG" passive line)
+			)
+			(pin bidirectional line
+				(at -13.335 -10.16 0)
+				(length 2.54)
+				(name "GPIO12†"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "HSPI MISO" bidirectional line)
+				(alternate "JTAG" passive line)
+				(alternate "MTDI†" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.335 -12.7 0)
+				(length 2.54)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "HSPI MOSI" bidirectional line)
+			)
+			(pin power_in line
+				(at -13.335 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.335 -17.78 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.335 17.78 180)
+				(length 2.54)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "VSPI MOSI" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 15.24 180)
+				(length 2.54)
+				(name "GPIO22"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "I2C SCL" bidirectional line)
+			)
+			(pin no_connect line
+				(at 13.335 12.7 180)
+				(length 2.54)
+				(name "UART0_TXD"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "GPIO1" bidirectional line)
+			)
+			(pin no_connect line
+				(at 13.335 10.16 180)
+				(length 2.54)
+				(name "UART0_RXD"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "GPIO3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 7.62 180)
+				(length 2.54)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "I2C SDA" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 5.08 180)
+				(length 2.54)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "VSPI MISO" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 2.54 180)
+				(length 2.54)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "VSPI CLK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 0 180)
+				(length 2.54)
+				(name "GPIO5†"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "VSPI CS0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.335 -2.54 180)
+				(length 2.54)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.335 -5.08 180)
+				(length 2.54)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "JTAG" passive line)
+			)
+			(pin bidirectional line
+				(at 13.335 -7.62 180)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.335 -10.16 180)
+				(length 2.54)
+				(name "GPIO2†"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.335 -12.7 180)
+				(length 2.54)
+				(name "GPIO15†"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "HSPI CS0" bidirectional line)
+				(alternate "JTAG" passive line)
+				(alternate "MTDO†" bidirectional line)
+			)
+			(pin power_out line
+				(at 13.335 -15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.335 -17.78 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.7874 0.7874)
+						)
+					)
+				)
+				(alternate "3.3v" power_in line)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
